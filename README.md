@@ -59,11 +59,9 @@ Risk is calculated using:
 
 ---
 
-## 🌐 Deployment
+## 🌐 Live Demo
 
-- Frontend: https://fraud-shield-murex.vercel.app  
-- Backend: https://fraud-monitoring-backend.onrender.com  
-
+-  https://fraud-shield-murex.vercel.app  
 ---
 
 ## 🔗 Project Goal
