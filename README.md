@@ -1,16 +1,80 @@
-# React + Vite
+# FraudShield — Real-Time Fraud Detection System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FraudShield is a full-stack real-time fraud detection and monitoring system that analyzes financial transactions, detects anomalies, and generates live risk alerts using a hybrid rule-based + ML-inspired risk engine.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+### Frontend
+- React + Vite
+- Tailwind CSS
+- Axios
+- Socket.IO Client
+- React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- Node.js + Express.js
+- MongoDB Atlas
+- Socket.IO
+- JWT Authentication
+- bcrypt.js
+- Role-Based Access Control (RBAC)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Features
+
+- Secure authentication using JWT
+- Real-time transaction monitoring dashboard
+- Live fraud alert system using WebSockets
+- Hybrid risk scoring engine (rules + ML fallback)
+- Case management system for flagged transactions
+- Analytics dashboard for insights
+- Role-based access (Admin / Analyst)
+
+---
+
+## 📡 Real-Time Architecture
+
+FraudShield uses Socket.IO to stream:
+
+- New transactions
+- Fraud alerts
+- KPI updates
+
+No refresh required — everything updates live.
+
+---
+
+## 🧠 Risk Engine
+
+Risk is calculated using:
+
+- Transaction amount thresholds
+- Transaction type (e.g., international transfers)
+- ML service prediction (fallback supported)
+
+---
+
+## 🌐 Deployment
+
+- Frontend: https://fraud-shield-murex.vercel.app  
+- Backend: https://fraud-monitoring-backend.onrender.com  
+
+---
+
+## 🔗 Project Goal
+
+This project demonstrates:
+- Real-time system design
+- Secure authentication flow
+- Scalable backend architecture
+- WebSocket-based live data streaming
+- Full-stack production deployment
+
+---
+
+## 🧪 Status
+
+Project is fully functional and deployed.
