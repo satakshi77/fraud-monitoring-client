@@ -21,6 +21,8 @@ FraudShield is a full-stack real-time fraud detection and monitoring system that
 - bcrypt.js
 - Role-Based Access Control (RBAC)
 
+### Database
+-MongoDB (Atlas Cloud)
 ---
 
 ## ⚙️ Features
