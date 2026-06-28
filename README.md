@@ -15,7 +15,7 @@ FraudShield is a full-stack real-time fraud detection and monitoring system that
 
 ### Backend
 - Node.js + Express.js
-- MongoDB Atlas
+- MongoDB
 - Socket.IO
 - JWT Authentication
 - bcrypt.js
